@@ -1,0 +1,213 @@
+
+
+<html>
+<body>
+
+<h1 align=center style="color:white"><b> MORTAGE AND PAWN BROKER AGE SYSTEM</b></h1>
+
+<br>
+
+ <header>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<style>
+
+
+body {
+    background-color:#002233;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the section */
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 50px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for the image */
+.image {
+    padding: 20px;
+}
+
+/* Style for the content */
+.content {
+    padding: 20px;
+    max-width: 600px;
+}
+
+/* Style for the title */
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+    animation: titleAnimation 1s ease-in-out;
+}
+
+/* Style for the line */
+span {
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 20px 0px;
+    background-color: #fff;
+    animation: lineAnimation 1s ease-in-out;
+}
+
+/* Style for the text */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    animation: textAnimation 1s ease-in-out;
+    color: #fff;
+}
+
+/* Style for the button */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    animation: buttonAnimation 1s ease-in-out;
+}
+
+/* Hover style for the button */
+button:hover {
+    background-color: #03e9f4;
+    color: #fff;
+}
+
+/* Keyframe animations */
+@keyframes titleAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes lineAnimation {
+    0% {
+        opacity: 0;
+        transform: scaleX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+@keyframes textAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes buttonAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes btn-anim2 {
+        0% {
+            top: -100%;
+        }
+        50%,100% {
+            top: 100%;
+        }
+      }
+
+    nav {
+  border: 1px solid black;
+  background-color: #f2f2f2;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 9px 9px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+  .navbar li {
+    margin: 0 10px;
+  }
+  .navbar {
+    border: 1px solid white;
+  }
+
+}
+
+footer{
+  text-align: left;
+  padding: 3px;
+  background-color: #e2c66a;
+  color: white;
+}
+
+
+
+
+</style>
+
+<h4 align="right">Hi, {{uname}}</h4>
+    <nav class="navbar">
+        <ul>
+          <li><a href="phome"><i class="fas fa-user-plus"></i>  PawnBroker Home</a></li>
+          <li><a href="pprofile"><i class="fas fa-sign-in-alt"></i> PawnBroker Profile</a></li>
+
+          <li><a href="plogout"><i class="fas fa-info-circle"></i> Pawnbroker Logout</a></li>
+
+        </ul>
+      </nav>
+
+    </header>
+
+

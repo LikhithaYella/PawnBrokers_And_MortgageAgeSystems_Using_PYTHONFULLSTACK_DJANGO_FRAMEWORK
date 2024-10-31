@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 align=center style="color:white"><b> MORTAGE AND PAWN BROKER AGE SYSTEM</b></h1>
+        <h2>ASHOK</h2>
+        <br>
+
+ <header>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+    <nav class="navbar">
+        <ul>
+          <li><a href="registration"><i class="fas fa-user-plus"></i> Registration</a></li>
+          <li><a href="login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+
+          <li><a href="options"><i class="fas fa-info-circle"></i> Options</a></li>
+          <li><a href="pawn"><i class="fas fa-info-circle"></i> Pawn Brokers</a></li>
+
+        </ul>
+      </nav>
+
+    </header>
+
+<br><br><br>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Us card || Learning robo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="about.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <style>
+    /* Style for the body */
+body {
+    background-color:#002233;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the section */
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 50px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for the image */
+.image {
+    padding: 20px;
+}
+
+/* Style for the content */
+.content {
+    padding: 20px;
+    max-width: 600px;
+}
+
+/* Style for the title */
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+    animation: titleAnimation 1s ease-in-out;
+}
+
+/* Style for the line */
+span {
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 20px 0px;
+    background-color: #fff;
+    animation: lineAnimation 1s ease-in-out;
+}
+
+/* Style for the text */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    animation: textAnimation 1s ease-in-out;
+    color: #fff;
+}
+
+/* Style for the button */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    animation: buttonAnimation 1s ease-in-out;
+}
+
+/* Hover style for the button */
+button:hover {
+    background-color: #03e9f4;
+    color: #fff;
+}
+
+/* Keyframe animations */
+@keyframes titleAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes lineAnimation {
+    0% {
+        opacity: 0;
+        transform: scaleX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+@keyframes textAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes buttonAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+nav {
+  border: 1px solid black;
+  background-color: #f2f2f2;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 9px 9px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+  .navbar li {
+    margin: 0 10px;
+  }
+  .navbar {
+    border: 1px solid white;
+  }
+
+}
+
+
+    @keyframes btn-anim2 {
+        0% {
+            top: -100%;
+        }
+        50%,100% {
+            top: 100%;
+        }
+      }
+</style>
+        <link rel="stylesheet" href="about.css">
+        <section>
+            <div class = "image">
+               <img src="static/images/pawn1.jpg" width="300">
+            </div>
+
+            <div class = "content">
+               
+                <span><!-- line here --></span>
+                <font size="4">  
+                <p>NAME:ASHOK TRIPATI.</p>
+                <p>AGE:39</p>
+                <p>Address: 7CRW+2R6, Etukuru Rd, Lalapet, Guntur, Andhra Pradesh 522003</p>
+                <p>Phone: 094400 81939</p>
+                <p>Bussiness hours:MONDAY- SATURDAY</p>
+                <p>AVALABILITY OF LOAN: 2000000</p>
+                </p>
+            </font>
+            </div>
+        </section><br><br>
+            
+<section><div class="login-box">
+	<h2>Customers Details</h2>
+	<form>
+	<div class="user-box">
+        <label>Loan Required</label>
+		<input type="number" name="" required="">
+		
+	  </div>
+
+
+
+	<div class="user-box">
+        <label>Aadhar Number</label>
+		<input type="number" name="" required="">
+		
+	  </div>
+	  <a href="#">
+		
+        <button  style="height:50px;width:110px" type="button"> <font size ="4">Apply for loan</font></button>
+	  </a>
+	</form>
+  </div></section>
+                
+                
+            
+           
+            
+              
+       
+    </body> 
+</html>
